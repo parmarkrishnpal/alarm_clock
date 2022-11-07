@@ -1,1 +1,13 @@
-# alarm_clock
+# AlarmClock-in-Seconds-
+The project contains a Digital Alarm Clock where you can set as many alarms as you want. 
+The first part of the project contains a digital clock which keeps on getting updated every second. In the second part we can set an alarm and all the new alarms being set will be added to a list below and will the played at the right time. With every new alarm being set a delete button will be given. On clicking that button you will be bale to disable to alarm and remove it from the webpage. Also you can snooze the alarm a maximum of 3 times.
+
+# TechStack: 
+HTML, CSS, JavaScript
+
+# Approach:
+All the alarms being set will be added to an array. The array will be checked every second if it contains the current time. It it does, then the alarm sound will be played. 
+On clicking on "Stop alarm" the audio will be paused and on clicking on "Delete Alarm" the said alarm will be removed from the array and the list. 
+On clicking on "Snooze alarm" the audio will be paused and alarm will be snoozed to 5 minutes and new timing is pushed in the alarm list.
+
+ 
